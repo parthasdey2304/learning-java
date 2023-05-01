@@ -1,4 +1,4 @@
-
+// Program to demonstrate switch case in java
 public class switch_case
 {
     public static void main(String[] args) {
