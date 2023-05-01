@@ -1,6 +1,6 @@
 // This is the structure of all the data types
 
-public class Main
+public class variable_data_types
 {
 	public static void main(String[] args)
 	{

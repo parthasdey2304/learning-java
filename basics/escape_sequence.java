@@ -1,4 +1,4 @@
-public class Main
+public class escape_sequence
 {
 	public static void main(String[] args)
 	{
