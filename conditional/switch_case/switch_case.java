@@ -1,3 +1,5 @@
+package conditional.switch_case;
+
 // Program to demonstrate switch case in java
 public class switch_case
 {
