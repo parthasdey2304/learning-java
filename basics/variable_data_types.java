@@ -11,5 +11,15 @@ public class variable_data_types
 		long l = 2343324; // long : 8 bytes
 		double d = 12.42d; // double : 8 bytes
 		float f = 123.3f; // float : 4 bytes
+
+		// using all these variables in print statements
+		System.out.println("Byte : " + b);
+		System.out.println("Short : " + s);
+		System.out.println("Char : " + c);
+		System.out.println("Int : " + i);
+		System.out.println("Long : " + l);
+		System.out.println("Double : " + d);
+		System.out.println("Float : " + f);
+		
 	}
 }
