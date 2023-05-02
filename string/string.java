@@ -30,5 +30,29 @@ public class string
         System.out.println("This is how you convert the entire string to upper case : " + st.toUpperCase());
         System.out.println("This is how you convert the entire string to lower case : "+st.toLowerCase());
         System.out.println("This how you make an array of the string : " + st.split(""));
+
+        // these methods are for character exchange in java
+        System.out.println("The first character of the string is :" + st.charAt(0));
+        System.out.println("The second character of the string in upper case is : " + Character.toUpperCase(st.charAt(1)));
+        System.out.println("The third character of the string in lower case is : " + Character.toLowerCase(st.charAt(2)));
+
+        // these methods are for checking the characters of the string
+        if(Character.isUpperCase(st.charAt(0)))
+            System.out.println("The first character is in upper case");
+        
+        if(Character.isLowerCase(st.charAt(1)))
+            System.out.println("The second character in in lower case");
+        
+        if(Character.isWhitespace(' '))
+            System.out.println("The character is a white space");
+
+        if(Character.isDigit('1'))
+            System.out.println("The character is a digit");
+
+        if(Character.isAlphabetic('b'))
+            System.out.println("The character is an alphabet");
+
+        if(Character.isLetterOrDigit('1'))
+            System.out.println("The character is a letter or a digit");
     }
 }
